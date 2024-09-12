@@ -1,0 +1,5 @@
+# Fragment specific to C++ source files
+If:
+    PathExclude: [.*\.c, .*\.h]
+CompileFlags:
+    Add: ['-std=c++23']
